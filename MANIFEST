@@ -1,0 +1,9 @@
+Changes
+Darts.xs
+MANIFEST
+Makefile.PL
+README
+lib/Text/Darts.pm
+t/Text-Darts.t
+t/benchmark.pl
+META.yml                                 Module meta-data (added by MakeMaker)
