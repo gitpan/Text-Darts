@@ -1,11 +1,11 @@
 --- #YAML:1.0
 name:                Text-Darts
-version:             0.03
+version:             0.04
 abstract:            Perl interface to DARTS by Taku Kudoh
 license:             ~
 author:              
     - Dan <dankogai@dan.co.jp>
-generated_by:        ExtUtils::MakeMaker version 6.42
+generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
 meta-spec:
