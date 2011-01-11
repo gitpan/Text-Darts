@@ -2,7 +2,7 @@ package Text::Darts;
 use strict;
 use warnings;
 use Carp;
-our $VERSION = sprintf "%d.%02d", q$Revision: 0.8 $ =~ /(\d+)/g;
+our $VERSION = sprintf "%d.%02d", q$Revision: 0.9 $ =~ /(\d+)/g;
 our $DEBUG = 0;
 
 require XSLoader;
@@ -75,7 +75,7 @@ Text::Darts - Perl interface to DARTS by Taku Kudoh
   my $td     = Text::Darts->new(@words);
   my $newstr = $td->gsub("ARPANET is a net by ARPA", sub{ "<<$_[0]>>" });
   # $newstr is now "<<ARPANET>> is a net by <<ARPA>>".
-  my $lstr   = $td->gsub("ARPANET is a net by ARPA", \%words);
+  my $lstr   = $td->gsub("ARPANET is a net by ARPA", \%word);
   # $Lstr is now "arpanet is a net by arpa".
 
   # or
